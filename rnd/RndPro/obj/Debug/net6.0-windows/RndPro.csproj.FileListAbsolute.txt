@@ -1,0 +1,17 @@
+C:\Users\ASUS\source\repos\RndPro\RndPro\bin\Debug\net6.0-windows\RndPro.exe
+C:\Users\ASUS\source\repos\RndPro\RndPro\bin\Debug\net6.0-windows\RndPro.deps.json
+C:\Users\ASUS\source\repos\RndPro\RndPro\bin\Debug\net6.0-windows\RndPro.runtimeconfig.json
+C:\Users\ASUS\source\repos\RndPro\RndPro\bin\Debug\net6.0-windows\RndPro.dll
+C:\Users\ASUS\source\repos\RndPro\RndPro\bin\Debug\net6.0-windows\RndPro.pdb
+C:\Users\ASUS\source\repos\RndPro\RndPro\obj\Debug\net6.0-windows\RndPro.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\RndPro\RndPro\obj\Debug\net6.0-windows\RndPro.Form1.resources
+C:\Users\ASUS\source\repos\RndPro\RndPro\obj\Debug\net6.0-windows\RndPro.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\RndPro\RndPro\obj\Debug\net6.0-windows\RndPro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\RndPro\RndPro\obj\Debug\net6.0-windows\RndPro.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\RndPro\RndPro\obj\Debug\net6.0-windows\RndPro.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\RndPro\RndPro\obj\Debug\net6.0-windows\RndPro.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\RndPro\RndPro\obj\Debug\net6.0-windows\RndPro.dll
+C:\Users\ASUS\source\repos\RndPro\RndPro\obj\Debug\net6.0-windows\refint\RndPro.dll
+C:\Users\ASUS\source\repos\RndPro\RndPro\obj\Debug\net6.0-windows\RndPro.pdb
+C:\Users\ASUS\source\repos\RndPro\RndPro\obj\Debug\net6.0-windows\RndPro.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\RndPro\RndPro\obj\Debug\net6.0-windows\ref\RndPro.dll
