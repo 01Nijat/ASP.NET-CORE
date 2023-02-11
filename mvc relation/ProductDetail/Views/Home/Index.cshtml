@@ -1,0 +1,52 @@
+﻿@model HomeVm
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<section id="products">
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-12 d-flex justify-content-between">
+                <ul class="category-mobile d-md-none list-unstyled">
+                    <li>
+                        <a href="" class="categories mr-2">Products</a>
+                        <i class="fas fa-caret-down"></i>
+                        <ul class="category list-unstyled" style="display: none;">
+                            <li><a href="" data-id="all">All</a></li>
+                            @foreach (var item in Model.Products)
+                            {
+                                <li><a href="" data-id="@item.Name.ToLower()">@item.Name</a></li>
+                            }
+
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="category d-none d-md-flex list-unstyled">
+                    <li><a href="" data-id="all">All</a></li>
+                    @foreach (var item in Model.Products)
+                    {
+                        <li><a href="" data-id="@item.Name.ToLower()">@item.Name</a></li>
+                    }
+                </ul>
+              
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var item in Model.Pictures)
+            {
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
+                    <div class="product-item text-center" data-id="@item.Product.Name.ToLower()">
+                        <div class="img">
+                            <a href="">
+                                <img src="~/img/@item.ImgUrl" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                     
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
