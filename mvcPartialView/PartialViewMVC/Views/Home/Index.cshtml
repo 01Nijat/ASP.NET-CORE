@@ -1,0 +1,28 @@
+﻿@model List<StronglyTypedPartialViewMVC.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<h3> Strongly Typed Partial View</h3>
+@*
+    Strongly typed partial view are those views which are bind with class of model.
+
+   STRONGLY TYPED VIEW
+       The view which binds with any model is called as strongly typed view.
+       You can bind any class as a model to view.
+       You can access model properties on that view.
+    PARTIAL VIEW
+    	Partial view represents a sub-view of a main view.
+    	Partial view allows you to reuse common markups across the different views of the application.
+    	We can use partial views in different views.
+*@
+<h1 class="text-center">PRODUCTS</h1>
+@{
+    foreach (var item in Model)
+    {
+        Html.RenderPartial("_ProductesPartialView", item);
+    }
+}
